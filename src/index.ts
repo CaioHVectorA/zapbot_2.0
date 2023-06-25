@@ -35,4 +35,4 @@ client.on("ready", () => {
   console.log("Servidor pronto!");
 });
 
-// client.on('message_create')
+client.on("message_create", (message) => {});
