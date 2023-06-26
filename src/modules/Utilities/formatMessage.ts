@@ -15,6 +15,6 @@ export default function Format(fullString: string) {
     })}} ), enviando para processamento`
   );
   const res = ProcessFunction({ identifier, params: formatStringInArray });
-  console.log(res);
+  console.log(`RESPOSTA FINAL: ${res} `);
   return res;
 }

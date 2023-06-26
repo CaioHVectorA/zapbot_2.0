@@ -25,8 +25,8 @@ export default function ProcessFunction({
 
 function runFunction(func: Comando, params: string[]) {
   if (func.isAsync) {
-    func.script(params).then((res: string) => {
-      console.log("Função executada. Resposta:", res);
+    return func.script(params).then((res: string) => {
+      console.log("Função assíncrona executada. Resposta:", res);
       return res;
     });
   } else {

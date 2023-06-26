@@ -1,0 +1,17 @@
+2023/06/26-00:29:40.507 53dc Reusing MANIFEST C:\Users\caihe\OneDrive\Documentos\develop\botzap2.0\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/06/26-00:29:40.508 53dc Recovering log #28
+2023/06/26-00:29:40.740 53dc Reusing old log C:\Users\caihe\OneDrive\Documentos\develop\botzap2.0\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000028.log 
+2023/06/26-00:29:40.741 53dc Delete type=2 #26
+2023/06/26-00:29:40.741 53dc Delete type=2 #27
+2023/06/26-00:29:40.741 53dc Delete type=2 #29
+2023/06/26-00:30:02.717 5fe8 Level-0 table #34: started
+2023/06/26-00:30:02.752 5fe8 Level-0 table #34: 979946 bytes OK
+2023/06/26-00:30:02.753 5fe8 Delete type=0 #28
+2023/06/26-00:30:02.769 5fe8 Compacting 1@1 + 2@2 files
+2023/06/26-00:30:02.903 5fe8 Generated table #35@1: 44604 keys, 2261430 bytes
+2023/06/26-00:30:02.959 5fe8 Generated table #36@1: 21474 keys, 981042 bytes
+2023/06/26-00:30:02.959 5fe8 Compacted 1@1 + 2@2 files => 3242472 bytes
+2023/06/26-00:30:02.960 5fe8 compacted to: files[ 0 0 2 0 0 0 0 ]
+2023/06/26-00:30:02.960 5fe8 Delete type=2 #30
+2023/06/26-00:30:02.960 5fe8 Delete type=2 #31
+2023/06/26-00:30:02.960 5fe8 Delete type=2 #34

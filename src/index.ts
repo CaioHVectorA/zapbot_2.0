@@ -1,6 +1,6 @@
 import qrcode from "qrcode-terminal";
 import { Client, LocalAuth } from "whatsapp-web.js";
-
+import Format from "./modules/Utilities/formatMessage";
 const client = new Client({
   authStrategy: new LocalAuth(),
 });
@@ -35,4 +35,9 @@ client.on("ready", () => {
   console.log("Servidor pronto!");
 });
 
-client.on("message_create", (message) => {});
+client.on("message_create", (message) => {
+  if (!message.body.startsWith("!")) return;
+  client.sendMessage(message.from, Format(message.body));
+});
+
+client.initialize();
