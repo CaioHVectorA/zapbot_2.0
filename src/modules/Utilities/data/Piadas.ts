@@ -1,4 +1,4 @@
-export const PIADAS = [
+export const PIADAS: { pergunta: string; resposta: string }[] = [
   {
     pergunta: "Qual é o animal mais antigo do mundo?",
     resposta: "A zebra, porque está em preto e branco desde sempre!",

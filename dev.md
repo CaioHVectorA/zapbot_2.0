@@ -2,8 +2,8 @@
 
 
 ### NO API NO DATABASE
-[ ] - Comando de dados
-[ ] - Comando de Piada, com emojis
+[X] - Comando de dados
+[X] - Comando de Piada [ ] com emojis
 [ ] - Comando de fatos
 [ ] - Tutorial
 [ ] - Apresentação
