@@ -6,7 +6,7 @@ const rl = readline.createInterface({
   output: process.stdout,
 });
 
-rl.question("Mande sua simulação de mensagem!", (msg) => {
+rl.question("Mande sua simulação de mensagem! \n", (msg) => {
   console.log(`RESPONSE:`, Format(msg));
   rl.close();
 });

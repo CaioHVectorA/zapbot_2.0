@@ -4,7 +4,7 @@
 ### NO API NO DATABASE
 [X] - Comando de dados
 [X] - Comando de Piada [ ] com emojis
-[ ] - Comando de fatos
+[X] - Comando de fatos
 [ ] - Tutorial
 [ ] - Apresentação
 ### SISTEMÁTICOS

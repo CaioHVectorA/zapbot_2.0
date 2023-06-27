@@ -8,7 +8,7 @@ export default function ProcessFunction({
   identifier: string;
   params: string[];
 }) {
-  console.log("Processando função!");
+  // console.log("Processando função!");
   for (const func of functionsRepo) {
     if (
       func.identifier.some(
@@ -16,7 +16,7 @@ export default function ProcessFunction({
       )
     ) {
       const res = runFunction(func, params);
-      console.log(`response:`, res);
+      // console.log(`response:`, res);
       return res;
     }
   }
@@ -26,12 +26,12 @@ export default function ProcessFunction({
 function runFunction(func: Comando, params: string[]) {
   if (func.isAsync) {
     return func.script(params).then((res: string) => {
-      console.log("Função assíncrona executada. Resposta:", res);
+      // console.log("Função assíncrona executada. Resposta:", res);
       return res;
     });
   } else {
     const res = func.script(params);
-    console.log("Função executada. Resposta:", res);
+    // console.log("Função executada. Resposta:", res);
     return res;
   }
 }

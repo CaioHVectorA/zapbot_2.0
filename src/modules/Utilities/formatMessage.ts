@@ -8,13 +8,13 @@ export default function Format(fullString: string) {
     .replace("!", "")
     .split(" ");
   const identifier = formatStringInArray.splice(0, 1)[0];
-  console.log(
-    `Mensagem Formatada. ( ${JSON.stringify({
-      identifier,
-      formatStringInArray,
-    })}} ), enviando para processamento`
-  );
+  // console.log(
+  //   `Mensagem Formatada. ( ${JSON.stringify({
+  //     identifier,
+  //     formatStringInArray,
+  //   })}} ), enviando para processamento`
+  // );
   const res = ProcessFunction({ identifier, params: formatStringInArray });
-  console.log(`RESPOSTA FINAL: ${res} `);
+  // console.log(`RESPOSTA FINAL: ${res} `);
   return res;
 }

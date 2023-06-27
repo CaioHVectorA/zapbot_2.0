@@ -36,6 +36,7 @@ client.on("ready", () => {
 });
 
 client.on("message_create", (message) => {
+  console.log(message);
   if (!message.body.startsWith("!")) return;
   client.sendMessage(message.from, Format(message.body));
 });

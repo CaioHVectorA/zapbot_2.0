@@ -6,8 +6,7 @@
   "scripts": {
     "dev": "ts-node-dev src/index.ts",
     "start": "tsc && node dist/index.js",
-    "test": "ts-node-dev src/test.ts",
-    "testwo": "ts-node-dev src/modules/utilities/test/test_pokemon.ts"
+    "test": "ts-node-dev src/test.ts"
   },
   "keywords": [],
   "author": "",

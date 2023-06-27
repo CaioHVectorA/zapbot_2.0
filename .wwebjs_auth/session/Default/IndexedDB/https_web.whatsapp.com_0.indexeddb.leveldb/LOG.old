@@ -1,44 +1,17 @@
-2023/06/26-00:24:25.185 3e3c Reusing MANIFEST C:\Users\caihe\OneDrive\Documentos\develop\botzap2.0\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/06/26-00:24:25.185 3e3c Recovering log #12
-2023/06/26-00:24:25.448 3e3c Reusing old log C:\Users\caihe\OneDrive\Documentos\develop\botzap2.0\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000012.log 
-2023/06/26-00:24:25.448 3e3c Delete type=2 #11
-2023/06/26-00:24:43.045 2c20 Level-0 table #17: started
-2023/06/26-00:24:43.081 2c20 Level-0 table #17: 962635 bytes OK
-2023/06/26-00:24:43.082 2c20 Delete type=0 #12
-2023/06/26-00:24:43.098 51a8 Compacting 1@1 + 1@2 files
-2023/06/26-00:24:43.245 51a8 Generated table #18@1: 44553 keys, 2213183 bytes
-2023/06/26-00:24:43.256 51a8 Generated table #19@1: 4499 keys, 97043 bytes
-2023/06/26-00:24:43.256 51a8 Compacted 1@1 + 1@2 files => 2310226 bytes
-2023/06/26-00:24:43.257 51a8 compacted to: files[ 0 0 2 0 0 0 0 ]
-2023/06/26-00:26:01.276 2e00 Level-0 table #21: started
-2023/06/26-00:26:01.304 2e00 Level-0 table #21: 1100567 bytes OK
-2023/06/26-00:26:01.306 2e00 Delete type=2 #14
-2023/06/26-00:26:01.306 2e00 Delete type=0 #16
-2023/06/26-00:26:01.306 2e00 Delete type=2 #17
-2023/06/26-00:26:01.318 51a8 Compacting 1@1 + 2@2 files
-2023/06/26-00:26:01.398 51a8 Generated table #22@1: 43647 keys, 2215239 bytes
-2023/06/26-00:26:01.417 51a8 Generated table #23@1: 11905 keys, 383523 bytes
-2023/06/26-00:26:01.417 51a8 Compacted 1@1 + 2@2 files => 2598762 bytes
-2023/06/26-00:26:01.418 51a8 compacted to: files[ 0 0 2 0 0 0 0 ]
-2023/06/26-00:26:01.418 51a8 Delete type=2 #18
-2023/06/26-00:26:01.418 51a8 Delete type=2 #19
-2023/06/26-00:26:01.418 51a8 Delete type=2 #21
-2023/06/26-00:26:20.126 2c20 Level-0 table #25: started
-2023/06/26-00:26:20.157 2c20 Level-0 table #25: 1100995 bytes OK
-2023/06/26-00:26:20.159 2c20 Delete type=0 #20
-2023/06/26-00:26:21.350 2c04 Compacting 1@1 + 2@2 files
-2023/06/26-00:26:21.475 2c04 Generated table #26@1: 42207 keys, 2212712 bytes
-2023/06/26-00:26:21.504 2c04 Generated table #27@1: 16906 keys, 592508 bytes
-2023/06/26-00:26:21.504 2c04 Compacted 1@1 + 2@2 files => 2805220 bytes
-2023/06/26-00:26:21.504 2c04 compacted to: files[ 0 0 2 0 0 0 0 ]
-2023/06/26-00:26:21.505 2c04 Delete type=2 #22
-2023/06/26-00:26:21.505 2c04 Delete type=2 #23
-2023/06/26-00:26:21.505 2c04 Delete type=2 #25
-2023/06/26-00:26:44.504 2c04 Level-0 table #29: started
-2023/06/26-00:26:44.540 2c04 Level-0 table #29: 1075644 bytes OK
-2023/06/26-00:26:44.542 2c04 Delete type=0 #24
-2023/06/26-00:26:44.555 2c04 Compacting 1@1 + 2@2 files
-2023/06/26-00:26:44.678 2c04 Generated table #30@1: 44239 keys, 2222803 bytes
-2023/06/26-00:26:44.727 2c04 Generated table #31@1: 19587 keys, 826583 bytes
-2023/06/26-00:26:44.727 2c04 Compacted 1@1 + 2@2 files => 3049386 bytes
-2023/06/26-00:26:44.728 2c04 compacted to: files[ 0 0 2 0 0 0 0 ]
+2023/06/26-00:29:40.507 53dc Reusing MANIFEST C:\Users\caihe\OneDrive\Documentos\develop\botzap2.0\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/06/26-00:29:40.508 53dc Recovering log #28
+2023/06/26-00:29:40.740 53dc Reusing old log C:\Users\caihe\OneDrive\Documentos\develop\botzap2.0\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000028.log 
+2023/06/26-00:29:40.741 53dc Delete type=2 #26
+2023/06/26-00:29:40.741 53dc Delete type=2 #27
+2023/06/26-00:29:40.741 53dc Delete type=2 #29
+2023/06/26-00:30:02.717 5fe8 Level-0 table #34: started
+2023/06/26-00:30:02.752 5fe8 Level-0 table #34: 979946 bytes OK
+2023/06/26-00:30:02.753 5fe8 Delete type=0 #28
+2023/06/26-00:30:02.769 5fe8 Compacting 1@1 + 2@2 files
+2023/06/26-00:30:02.903 5fe8 Generated table #35@1: 44604 keys, 2261430 bytes
+2023/06/26-00:30:02.959 5fe8 Generated table #36@1: 21474 keys, 981042 bytes
+2023/06/26-00:30:02.959 5fe8 Compacted 1@1 + 2@2 files => 3242472 bytes
+2023/06/26-00:30:02.960 5fe8 compacted to: files[ 0 0 2 0 0 0 0 ]
+2023/06/26-00:30:02.960 5fe8 Delete type=2 #30
+2023/06/26-00:30:02.960 5fe8 Delete type=2 #31
+2023/06/26-00:30:02.960 5fe8 Delete type=2 #34
