@@ -11,5 +11,6 @@ export const Piada = new Comando(
   ["Piada", "Piadas", "Piadoca", "Joke"],
   PiadaFunc,
   false,
+  false,
   []
 );

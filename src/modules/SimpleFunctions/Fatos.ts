@@ -9,5 +9,6 @@ export const Fatos = new Comando(
   ["Fato", "Fatos", "Verdade", "FatoAleatório"],
   FatosFunc,
   false,
+  false,
   []
 );

@@ -1,10 +1,12 @@
+import { MessageContent } from "whatsapp-web.js";
 import ProcessFunction from "./ProcessFunction";
 
-export default function Format(fullString: string) {
+export default async function Format(fullString: string) {
   console.log("Formatando Mensagem...");
   if (!fullString.startsWith("!")) return `Comando Invalido!`;
   const formatStringInArray = fullString
     .toLowerCase()
+    .trim()
     .replace("!", "")
     .split(" ");
   const identifier = formatStringInArray.splice(0, 1)[0];
@@ -14,7 +16,10 @@ export default function Format(fullString: string) {
   //     formatStringInArray,
   //   })}} ), enviando para processamento`
   // );
-  const res = ProcessFunction({ identifier, params: formatStringInArray });
-  // console.log(`RESPOSTA FINAL: ${res} `);
+  const res = await ProcessFunction({
+    identifier,
+    params: formatStringInArray,
+  });
+  console.log(`RESPOSTA FINAL:`, res);
   return res;
 }

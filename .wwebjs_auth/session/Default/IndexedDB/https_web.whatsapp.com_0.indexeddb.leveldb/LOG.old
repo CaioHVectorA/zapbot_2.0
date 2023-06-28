@@ -1,17 +1,24 @@
-2023/06/26-00:29:40.507 53dc Reusing MANIFEST C:\Users\caihe\OneDrive\Documentos\develop\botzap2.0\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
-2023/06/26-00:29:40.508 53dc Recovering log #28
-2023/06/26-00:29:40.740 53dc Reusing old log C:\Users\caihe\OneDrive\Documentos\develop\botzap2.0\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000028.log 
-2023/06/26-00:29:40.741 53dc Delete type=2 #26
-2023/06/26-00:29:40.741 53dc Delete type=2 #27
-2023/06/26-00:29:40.741 53dc Delete type=2 #29
-2023/06/26-00:30:02.717 5fe8 Level-0 table #34: started
-2023/06/26-00:30:02.752 5fe8 Level-0 table #34: 979946 bytes OK
-2023/06/26-00:30:02.753 5fe8 Delete type=0 #28
-2023/06/26-00:30:02.769 5fe8 Compacting 1@1 + 2@2 files
-2023/06/26-00:30:02.903 5fe8 Generated table #35@1: 44604 keys, 2261430 bytes
-2023/06/26-00:30:02.959 5fe8 Generated table #36@1: 21474 keys, 981042 bytes
-2023/06/26-00:30:02.959 5fe8 Compacted 1@1 + 2@2 files => 3242472 bytes
-2023/06/26-00:30:02.960 5fe8 compacted to: files[ 0 0 2 0 0 0 0 ]
-2023/06/26-00:30:02.960 5fe8 Delete type=2 #30
-2023/06/26-00:30:02.960 5fe8 Delete type=2 #31
-2023/06/26-00:30:02.960 5fe8 Delete type=2 #34
+2023/06/27-21:33:30.206 1e74 Reusing MANIFEST C:\Users\caihe\OneDrive\Documentos\develop\botzap2.0\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/06/27-21:33:30.206 1e74 Recovering log #276
+2023/06/27-21:33:30.372 1e74 Reusing old log C:\Users\caihe\OneDrive\Documentos\develop\botzap2.0\.wwebjs_auth\session\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/000276.log 
+2023/06/27-21:33:42.389 52a8 Level-0 table #287: started
+2023/06/27-21:33:42.452 52a8 Level-0 table #287: 1132698 bytes OK
+2023/06/27-21:33:42.456 52a8 Delete type=0 #276
+2023/06/27-21:33:43.937 52a8 Compacting 1@1 + 7@2 files
+2023/06/27-21:33:44.119 52a8 Generated table #288@1: 56984 keys, 2322099 bytes
+2023/06/27-21:33:44.205 52a8 Generated table #289@1: 17364 keys, 2181279 bytes
+2023/06/27-21:33:44.245 52a8 Generated table #290@1: 2608 keys, 2158235 bytes
+2023/06/27-21:33:44.366 52a8 Generated table #291@1: 19686 keys, 2236440 bytes
+2023/06/27-21:33:44.484 52a8 Generated table #292@1: 27861 keys, 2225089 bytes
+2023/06/27-21:33:44.649 52a8 Generated table #293@1: 78326 keys, 2222003 bytes
+2023/06/27-21:33:44.760 52a8 Generated table #294@1: 53473 keys, 1144378 bytes
+2023/06/27-21:33:44.760 52a8 Compacted 1@1 + 7@2 files => 14489523 bytes
+2023/06/27-21:33:44.761 52a8 compacted to: files[ 0 0 7 0 0 0 0 ]
+2023/06/27-21:33:44.762 52a8 Delete type=2 #278
+2023/06/27-21:33:44.762 52a8 Delete type=2 #279
+2023/06/27-21:33:44.762 52a8 Delete type=2 #280
+2023/06/27-21:33:44.762 52a8 Delete type=2 #281
+2023/06/27-21:33:44.762 52a8 Delete type=2 #282
+2023/06/27-21:33:44.762 52a8 Delete type=2 #283
+2023/06/27-21:33:44.762 52a8 Delete type=2 #284
+2023/06/27-21:33:44.762 52a8 Delete type=2 #287

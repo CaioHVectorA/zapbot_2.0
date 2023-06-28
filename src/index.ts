@@ -35,10 +35,19 @@ client.on("ready", () => {
   console.log("Servidor pronto!");
 });
 
-client.on("message_create", (message) => {
-  console.log(message);
-  if (!message.body.startsWith("!")) return;
-  client.sendMessage(message.from, Format(message.body));
+client.on("message_create", async (message) => {
+  if (typeof message.body !== "string" || !message.body.startsWith("!")) return;
+  const res: { hasImg: boolean; response: string } | any = await Format(
+    message.body
+  );
+  console.log(res.response.caption, !!res.response.media);
+  if (res.hasImg) {
+    client.sendMessage(message.from, res.response.media, {
+      caption: res.response.caption,
+    });
+  } else {
+    client.sendMessage(message.from, res.response);
+  }
 });
 
 client.initialize();
