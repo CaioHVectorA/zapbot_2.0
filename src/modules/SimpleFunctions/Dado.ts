@@ -1,6 +1,7 @@
 import { Comando } from "../Data/FunctionConstructor";
 
-const DadoFunc = (array: string[]) => {
+const DadoFunc = (array: string[],args: any) => {
+  console.log('argsdado:',args)
   const number = parseInt(array[0]) || 6;
   if (!array[1]) {
     const RNG = Math.floor(Math.random() * number) + 1;

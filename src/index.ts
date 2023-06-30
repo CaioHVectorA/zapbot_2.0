@@ -34,20 +34,30 @@ console.log(` ZAP BOT - BY VECTOR
 client.on("ready", () => {
   console.log("Servidor pronto!");
 });
-
 client.on("message_create", async (message) => {
   if (typeof message.body !== "string" || !message.body.startsWith("!")) return;
   const res: { hasImg: boolean; response: string } | any = await Format(
-    message.body
+    message.body,
+    message,
+    client
   );
-  console.log(res.response.caption, !!res.response.media);
   if (res.hasImg) {
     client.sendMessage(message.from, res.response.media, {
       caption: res.response.caption,
     });
   } else {
-    client.sendMessage(message.from, res.response);
+    message.reply(res.response)
+    // client.sendMessage(message.from, res.response);
   }
 });
+
+// client.on('message_create',async (message) => {
+//   if (message.hasQuotedMsg && message.body === '/deletar') {
+//     console.log('foi')
+//     const msg = await message.getQuotedMessage()
+//     console.log(msg.body)
+//     const msgdel = await msg.delete(true)
+//   }
+// })
 
 client.initialize();

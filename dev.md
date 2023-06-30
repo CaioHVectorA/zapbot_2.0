@@ -10,7 +10,7 @@
 ### SISTEMÁTICOS
 [ ] - Tirar fundo de imagens
 ### API
-[ ] - Comando de Pokemon https://pokeapi.co/
+[X] - Comando de Pokemon https://pokeapi.co/
 [ ] - Comando de significados https://dicio-api-ten.vercel.app
 [ ] - Comando de Clima 
 [ ] - Comando de notícias - https://newsapi.org/
