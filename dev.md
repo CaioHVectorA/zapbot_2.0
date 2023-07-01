@@ -8,7 +8,7 @@
 [ ] - Tutorial
 [ ] - Apresentação
 ### SISTEMÁTICOS
-[ ] - Tirar fundo de imagens
+[X] - Tirar fundo de imagens
 ### API
 [X] - Comando de Pokemon https://pokeapi.co/
 [ ] - Comando de significados https://dicio-api-ten.vercel.app
@@ -16,7 +16,7 @@
 [ ] - Comando de notícias - https://newsapi.org/
 [ ] - Comando de Filme (Movie database)
 ### DATABASE 
-[ ] - Registrar Número(Para utilizar as funções de database precisa ser registrado)
+[X] - Registrar Número(Para utilizar as funções de database precisa ser registrado)
 [ ] - Entrar na conta
 [ ] - Criar anotação (E editar)
 [ ] - Criar Aviso (E editar)

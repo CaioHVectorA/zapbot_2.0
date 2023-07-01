@@ -18,10 +18,15 @@ export default async function ProcessFunction({
         (ident) => ident.toLowerCase() === identifier.toLowerCase()
       )
     ) {
-      const res = await runFunction(func, params,args);
-      console.log(res)
-      if (typeof res === 'object' && res.media) return { hasImg: true, response: res }
-      if (typeof res === 'string') return { hasImg: false, response: res };
+      try {
+        const res = await runFunction(func, params,args);
+        console.log(res)
+        if (typeof res === 'object' && res.media) return { hasImg: true, response: res }
+        if (typeof res === 'string') return { hasImg: false, response: res };
+        
+      } catch (error) {
+        return {hasImg: false, response: `Ocorreu um erro! A função não foi encontrada.`}; 
+      }
     }
   }
   return `Ocorreu um erro! A função não foi encontrada.`;

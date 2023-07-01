@@ -15,4 +15,16 @@ model User {
   created_at DateTime @default(now())
   number String
   id String @unique @id @default(uuid())
+  in_active_game Boolean @default(false)
+  game Game?
+}
+
+model Game {
+  game_name String
+  created_at DateTime @default(now())
+  game_id String @unique @id @default(uuid())
+  user_id String @unique
+  game_schema String
+  game_round Int @default(0)
+  user User @relation(fields: [user_id],references: [id])
 }
