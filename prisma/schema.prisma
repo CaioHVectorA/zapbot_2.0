@@ -25,6 +25,7 @@ model Game {
   game_id String @unique @id @default(uuid())
   user_id String @unique
   game_schema String
+  game_infos String
   game_round Int @default(0)
   user User @relation(fields: [user_id],references: [id])
 }

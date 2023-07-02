@@ -1,7 +1,7 @@
 import { RenderJogoDaVelha } from "../Utilities/GameFuncionts/JogoDaVelha";
 import { prisma } from "../Utilities/prisma";
-import {Comando} from '../Data/FunctionConstructor'
-import { GameController } from "./GameFunctions/GameController";
+import { Comando } from '../Data/FunctionConstructor'
+import { GameController } from "./GameFunctions/GameCreateController";
 import { Client, Message } from "whatsapp-web.js";
 type gamename = "JogoDaVelha" | "Calcular" | "BlackJack" | "Charada" | "Forca"   
 export class GameMethods {
@@ -19,7 +19,8 @@ export class GameMethods {
         if (!user || !user.id) return `Você não possui uma conta registrada.`
         const game = await prisma.game.create({data: {
             game_name: gamename,
-            game_schema: GameController(gamename),
+            game_schema: GameController(gamename).schema,
+            game_infos: GameController(gamename).infos,
             user_id: user.id
         }})
         await prisma.user.update({
