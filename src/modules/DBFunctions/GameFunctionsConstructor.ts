@@ -1,4 +1,3 @@
-import { RenderJogoDaVelha } from "../Utilities/GameFuncionts/JogoDaVelha";
 import { prisma } from "../Utilities/prisma";
 import { Comando } from '../Data/FunctionConstructor'
 import { GameController } from "./GameFunctions/GameCreateController";

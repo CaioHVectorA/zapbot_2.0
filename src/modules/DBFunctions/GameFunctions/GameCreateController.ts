@@ -1,4 +1,6 @@
-import { RenderJogoDaVelha } from "../../Utilities/GameFuncionts/JogoDaVelha";
+import { RenderJogoDaVelha } from "../../Utilities/GameFuncionts/JogoDaVelha/JogoDaVelha"
+
+
 
 export function GameController(gamename: string): {infos: string, schema: string} {
     if (gamename.toLowerCase() === 'jogodavelha') {
