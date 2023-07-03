@@ -4,7 +4,7 @@ import { GameMethods } from "../GameFunctionsConstructor"
 const usecase = new GameMethods()
 
 export const CriarGame = new Comando(
-    ['CriarJogo','Jogar','comecarjogo','jogarjogo','jugar','jogo'],
+    ['CriarJogo','comecarjogo','criarjogo','jugar','jogo'],
     usecase.create,
     false,
     true,
