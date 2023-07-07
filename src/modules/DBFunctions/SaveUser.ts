@@ -4,7 +4,7 @@ import { prisma } from "../Utilities/prisma";
 
 
 async function SaverUserFunc(params: string[], args: {msg: Message | undefined, client: Client | undefined}) {
-    if (args.msg?.from.includes('g')) { return `Sinto-lhe dizer, mas infelizmente não pode registrar no grupo!` } 
+    // if (args.msg?.from.includes('g')) { return `Sinto-lhe dizer, mas infelizmente não pode registrar no grupo!` } 
     //@ts-ignore
     if (!params[0]) return 'Providencie um nome de usuário antes!'
     const userFound = await prisma.user.findFirst({

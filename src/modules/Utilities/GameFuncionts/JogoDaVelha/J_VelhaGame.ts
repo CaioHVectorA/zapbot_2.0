@@ -31,6 +31,8 @@ export default async function GameJogoDaVelha(game: string, gameplay: number,tel
     }) 
     if (!prevGame) return `Jogo não encontrado!`
     const schema = JSON.parse(prevGame?.game_infos)
+    if (schema[gameplay - 1] === 'X') return `Você já jogou nesse slot!` 
+    if (schema[gameplay - 1] === 'O') return `O Bot jogou nesse slot!` 
     schema[gameplay - 1] = 'X'
     if (verificarVitoria(schema, 'X')) {
         // Jogador venceu
