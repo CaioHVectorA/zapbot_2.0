@@ -1,3 +1,0 @@
-[0706/185722.938:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'ambient-light-sensor'.", source:  (0)
-[0706/185722.938:INFO:CONSOLE(0)] "Error with Permissions-Policy header: Unrecognized feature: 'bluetooth'.", source:  (0)
-[0706/190010.342:INFO:CONSOLE(2)] "Uncaught (in promise) ServerStatusCodeError: item-not-found", source: https://web.whatsapp.com/vendor1~app.a91035d81a749b3d5627.js (2)

@@ -1,6 +1,7 @@
 import qrcode from "qrcode-terminal";
 import { Client, LocalAuth } from "whatsapp-web.js";
 import Format from "./modules/Utilities/formatMessage";
+import isCommand from "./modules/Utilities/IsCommand";
 const client = new Client({
   authStrategy: new LocalAuth(),
 });
@@ -36,6 +37,7 @@ client.on("ready", () => {
 });
 client.on("message_create", async (message) => {
   if (typeof message.body !== "string" || !message.body.startsWith("!")) return;
+  if (!isCommand(message.body)) return;
   const res: { hasImg: boolean; response: string } | any = await Format(
     message.body,
     message,

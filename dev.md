@@ -9,9 +9,10 @@
 [ ] - Apresentação
 ### SISTEMÁTICOS
 [X] - Tirar fundo de imagens
+[ ] - Fazer Figurinha
 ### API
 [X] - Comando de Pokemon https://pokeapi.co/
-[ ] - Comando de significados https://dicio-api-ten.vercel.app
+~~[ ] - Comando de significados https://dicio-api-ten.vercel.app~~
 [ ] - Comando de Clima 
 [ ] - Comando de notícias - https://newsapi.org/
 [ ] - Comando de Filme (Movie database)
@@ -27,7 +28,7 @@
 [ ] - Criar Classes (Exibir, Editar, Atribuir/Remover de um personagem, Exibir Classes)
 [ ] - Criar inimigo(Exibir, Editar, ...)
 ### JOGOS
-[ ] - Jogo da Velha
+[X] - Jogo da Velha [ ] Fazer sistema para evitar repetições
 [ ] - Jogo de adivinhação 
 [ ] - Charada
 [ ] - Forca
